@@ -1,0 +1,98 @@
+.flex{
+    display: flex;
+
+}
+.justify-content{
+    justify-content: center;
+}
+.jc-inbetween{
+    justify-content: space-between;
+}
+.jc-around{
+    justify-content: space-around;
+}
+.align-items{
+    align-items: center;
+}
+.bg-color{
+    background-color: #121212;
+    /* color: white; */
+}
+.invert{
+    filter: invert();
+}
+.color-w{
+    color: white;
+}
+.m1{
+    margin: 10px;
+}
+.p1{
+    padding: 22px;
+}
+.gap{
+    gap:11px
+}
+.color-gr{
+    color: gray;
+}
+.svg-gray{
+    /* -webkit-filter: grayscale(100%); */
+}
+.border{
+    border: 2px solid green;
+}
+
+  
+  .right::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  .right::-webkit-scrollbar-thumb {
+    background-color: #5b6066; /* Color of the thumb (the draggable part) */
+  }
+  
+  .right::-webkit-scrollbar-track {
+    background-color: #000000; /* Color of the track (the area the thumb moves along) */
+  }
+  
+  /* Hover effect for the scrollbar */
+  .right::-webkit-scrollbar-thumb:hover {
+    background-color: #535455; /* Change color on hover */
+  }
+  .cards::-webkit-scrollbar {
+    width: 9px; /* Width of the scrollbar */
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background-color: #3e4145; /* Color of the thumb (the draggable part) */
+  }
+  
+  .cards::-webkit-scrollbar-track {
+    background-color: #000000; /* Color of the track (the area the thumb moves along) */
+  }
+  
+  /* Hover effect for the scrollbar */
+  .cards::-webkit-scrollbar-thumb:hover {
+    background-color: #5c5c5c; /* Change color on hover */
+  }
+  
+
+
+  .yoursongs::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .yoursongs::-webkit-scrollbar-thumb {
+    background-color: #5b6066; /* Color of the thumb (the draggable part) */
+  }
+  
+  .yoursongs::-webkit-scrollbar-track {
+    background-color: #000000; /* Color of the track (the area the thumb moves along) */
+  }
+  
+  /* Hover effect for the scrollbar */
+  .yoursongs::-webkit-scrollbar-thumb:hover {
+    background-color: #9cb2c1; /* Change color on hover */
+  }
+  

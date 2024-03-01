@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-clone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <!-- <link rel="stylesheet" href="hover.css"> -->
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home bg-color m1 p1 ">
+                <div class="flex jc-inbetween">
+                    <img src="logo.svg" alt="" width="150px" class="logo invert">
+                    <img class="close invert" src="cross-svgrepo-com.svg" width="35px" alt="">
+                </div>
+                <ul>
+                    <li class="color-w">
+                        <img class="invert " src="home.svg" alt="home">Home
+                    </li>
+                    <li class="color-gr">
+                        <img class="invert" src="search.svg" alt="search">Search
+                    </li>
+                </ul>
+            </div>
+            <div class="library bg-color m1 p1 ">
+                <div class="y-library flex  jc-inbetween">
+                    <div class="flex gap color-gr"><img class="lib invert" src="library.svg" alt="library">Your Library
+                    </div>
+                    <img class="invert plus" src="plus.svg" alt="plus">
+                </div>
+                <div class="yoursongs">
+
+
+                </div>
+                <div class="footer ">
+                    <div class="cook">Cookies</div>
+                    <span class="english ">
+                        <img class="invert" src="english.svg" alt="english" width="16px">
+
+                        English
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav bg-color flex jc-inbetween ">
+                <div class="flex hamburgercont">
+                    <img class="hamburger invert" src="hamburger-md-svgrepo-com.svg" width="40px" alt="">
+                    <div>
+                        <img class="invert arr" src="svg/left-arrow-backup-2-svgrepo-com.svg" alt="" width="16px">
+                        <img class="invert arr" src="svg/right-arrow-backup-2-svgrepo-com.svg" alt="" width="16px">
+                    </div>
+                </div>
+                <div class="flex gap">
+                    <ul class="flex gap ">
+                        <li class="color-gr res-hidden">Permium</li>
+                        <li class="color-gr res-hidden">Support</li>
+                        <li class="color-gr res-hidden">Download</li>
+                    </ul>
+
+
+                    <img class="invert svg-gray" src="svg/vertical-line-svgrepo-com.svg" alt="" width="23px">
+                    <span class="sign-up color-gr">
+                        Sign Up
+                    </span>
+                    <span class="login">
+                        Login
+                    </span>
+
+                </div>
+            </div>
+            <div class="spotifyplaylistl bg-color ">
+                <h2>Spotify Playlist</h2>
+            </div>
+            <div class="cards bg-color p1 m1 flex">
+                
+                <!-- <div data-folder="ncs" class="card">
+                    <div class="play translate">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#00FF00" height="50px" width="50px" version="1.1" id="Layer_1" viewBox="0 0 40 40"
+                            xml:space="preserve">
+                            <circle cx="20" cy="20" r="20" fill="#000000" />
+                            <path xmlns="http://www.w3.org/2000/svg" id="XMLID_113_"
+                                d="M19.994,0C8.952,0,0,8.952,0,19.994c0,11.043,8.952,19.995,19.994,19.995  c11.043,0,19.995-8.952,19.995-19.995C39.989,8.952,31.037,0,19.994,0z M26.682,21.386l-11.769,6.795  c-1.071,0.619-2.41-0.155-2.41-1.392V13.2c0-1.237,1.339-2.01,2.41-1.392l11.769,6.795C27.754,19.221,27.754,20.768,26.682,21.386z" />
+                        </svg>
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="">
+                    <h3>
+                        Chillout Lounge
+                    </h3>
+                    <p>
+                        Just lean back and enjoy relaxed beats.
+                    </p>
+                </div> -->
+                <!-- <div data-folder="cs" class="card">
+                    <div class="play translate">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#00FF00" height="50px" width="50px" version="1.1" id="Layer_1" viewBox="0 0 40 40"
+                            xml:space="preserve">
+                            <circle cx="20" cy="20" r="20" fill="#000000" />
+                            <path xmlns="http://www.w3.org/2000/svg" id="XMLID_113_"
+                                d="M19.994,0C8.952,0,0,8.952,0,19.994c0,11.043,8.952,19.995,19.994,19.995  c11.043,0,19.995-8.952,19.995-19.995C39.989,8.952,31.037,0,19.994,0z M26.682,21.386l-11.769,6.795  c-1.071,0.619-2.41-0.155-2.41-1.392V13.2c0-1.237,1.339-2.01,2.41-1.392l11.769,6.795C27.754,19.221,27.754,20.768,26.682,21.386z" />
+                        </svg>
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="">
+                    <h3>
+                        Chillout Lounge
+                    </h3>
+                    <p>
+                        Just lean back and enjoy relaxed beats.
+                    </p>
+                </div> -->
+
+
+
+            </div>
+            <div class="playbar flex ">
+                <div class="playbar1 flex">
+                    <div class="track-name ">
+
+                    </div>
+                    <div class="pause_bar flex">
+                        <img id="previous" class="invert" src="backward-step-svgrepo-com (1).svg" alt="">
+                        <img id="play" class="invert" src="play.svg" alt="">
+                        <img id="next" class="invert" src="forward-step-svgrepo-com (1).svg" alt="">
+
+                    </div>
+                    <div class="duration ">
+
+
+                    </div>
+                    <div class="vol">
+                        <img class="invert" src="volume.svg" id="volume" alt="">
+                        <input type="range" name="range">
+                    </div>
+
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
